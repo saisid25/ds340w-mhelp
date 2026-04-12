@@ -1,0 +1,13 @@
+Model,Split,Accuracy,Macro F1,Weighted F1,Help Precision,Help Recall,Help F1
+Majority Class Baseline,Validation,0.531,0.347,0.368,0.531,1.0,0.693
+Majority Class Baseline,Test,0.569,0.363,0.413,0.569,1.0,0.725
+Original: Word TF-IDF + Logistic Regression,Validation,0.594,0.561,0.568,0.584,0.822,0.683
+Original: Word TF-IDF + Logistic Regression,Test,0.604,0.539,0.563,0.607,0.862,0.713
+Balanced Logistic Regression,Validation,0.606,0.594,0.598,0.607,0.728,0.662
+Balanced Logistic Regression,Test,0.591,0.562,0.578,0.617,0.743,0.674
+Word TF-IDF + Linear SVM,Validation,0.594,0.577,0.582,0.593,0.754,0.664
+Word TF-IDF + Linear SVM,Test,0.572,0.536,0.554,0.599,0.748,0.665
+Complement Naive Bayes,Validation,0.556,0.412,0.43,0.545,0.99,0.703
+Complement Naive Bayes,Test,0.583,0.407,0.451,0.578,0.99,0.73
+Novelty: Character TF-IDF + Linear SVM,Validation,0.592,0.585,0.588,0.603,0.675,0.637
+Novelty: Character TF-IDF + Linear SVM,Test,0.602,0.583,0.595,0.633,0.714,0.671
